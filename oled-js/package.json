@@ -1,0 +1,25 @@
+{
+  "name": "oled-js",
+  "version": "3.0.1",
+  "description": "Edison lib for oled devices",
+  "main": "oled.js",
+  "dependencies": {
+    "mraa": "~0.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KhaosT/oled-js.git"
+  },
+  "keywords": [
+    "oled"
+  ],
+  "author": "Suz Hinton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KhaosT/oled-js/issues"
+  },
+  "homepage": "https://github.com/KhaosT/oled-js"
+}

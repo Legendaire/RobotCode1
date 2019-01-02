@@ -1,0 +1,174 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": "Android",
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "icon.png": {
+        "previousModTime": 1449921269060,
+        "modified": 1449921269060,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1465249508718,
+        "modified": 1465249508718,
+        "seen": true,
+        "name": "main.js"
+      },
+      "old.js": {
+        "previousModTime": 1450147532690,
+        "modified": 1450147532690,
+        "seen": true,
+        "name": "old.js"
+      },
+      "package.json": {
+        "previousModTime": 1465249516126,
+        "modified": 1465249516126,
+        "seen": true,
+        "name": "package.json"
+      },
+      "README.md": {
+        "previousModTime": 1449921269063,
+        "modified": 1449921269063,
+        "seen": true,
+        "name": "README.md"
+      },
+      "RobotCode.xdk": {
+        "previousModTime": 1450602641014,
+        "modified": 1450602641014,
+        "seen": true,
+        "name": "RobotCode.xdk"
+      },
+      "RobotCode.xdke": {
+        "previousModTime": 1461259010583,
+        "modified": 1461259010583,
+        "seen": true,
+        "name": "RobotCode.xdke"
+      },
+      "client/botcontrol.js": {
+        "previousModTime": 1455861830932,
+        "modified": 1455861830932,
+        "seen": true,
+        "name": "client/botcontrol.js"
+      },
+      "client/cam.html": {
+        "previousModTime": 1454938537576,
+        "modified": 1454938537576,
+        "seen": true,
+        "name": "client/cam.html"
+      },
+      "client/cam.html~": {
+        "previousModTime": 1447123186495,
+        "modified": 1447123186495,
+        "seen": true,
+        "name": "client/cam.html~"
+      },
+      "client/index.css": {
+        "previousModTime": 1439643942865,
+        "modified": 1439643942865,
+        "seen": true,
+        "name": "client/index.css"
+      },
+      "client/index.html": {
+        "previousModTime": 1455317434756,
+        "modified": 1455317434756,
+        "seen": true,
+        "name": "client/index.html"
+      },
+      "client/index.js": {
+        "previousModTime": 1440934528588,
+        "modified": 1440934528588,
+        "seen": true,
+        "name": "client/index.js"
+      },
+      "client/jsmpg.js": {
+        "previousModTime": 1439211259000,
+        "modified": 1439211259000,
+        "seen": true,
+        "name": "client/jsmpg.js"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1450602641003,
+        "modified": 1450602641003,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      },
+      "client/jquery-1.11.1.js": {
+        "previousModTime": 1455316269853,
+        "modified": 1455316269853,
+        "seen": true,
+        "name": "client/jquery-1.11.1.js"
+      },
+      "oled/oled.js": {
+        "previousModTime": 1465249292002,
+        "modified": 1465249292002,
+        "seen": true,
+        "name": "oled/oled.js"
+      },
+      "oled/package.json": {
+        "previousModTime": 1465249291986,
+        "modified": 1465249291986,
+        "seen": true,
+        "name": "oled/package.json"
+      }
+    },
+    "boardFileStatus": {
+      "icon.png": {
+        "previousModTime": 1465250121445
+      },
+      "main.js": {
+        "previousModTime": 1465250121445
+      },
+      "old.js": {
+        "previousModTime": 1465250121445
+      },
+      "package.json": {
+        "previousModTime": 1465250121445
+      },
+      "README.md": {
+        "previousModTime": 1465250121445
+      },
+      "client/botcontrol.js": {
+        "previousModTime": 1465250121445
+      },
+      "client/cam.html": {
+        "previousModTime": 1465250121445
+      },
+      "client/cam.html~": {
+        "previousModTime": 1465250121445
+      },
+      "client/index.css": {
+        "previousModTime": 1465250121445
+      },
+      "client/index.html": {
+        "previousModTime": 1465250121445
+      },
+      "client/index.js": {
+        "previousModTime": 1465250121445
+      },
+      "client/jsmpg.js": {
+        "previousModTime": 1465250121445
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1465250121445
+      },
+      "client/jquery-1.11.1.js": {
+        "previousModTime": 1465250121445
+      },
+      "oled/oled.js": {
+        "previousModTime": 1465250121445
+      },
+      "oled/package.json": {
+        "previousModTime": 1465250121445
+      }
+    }
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  }
+}

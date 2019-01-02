@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Web Sockets Template</title>
+    <link rel="stylesheet" href="/client/index.css"/>
+    <script src="/client/jquery-1.11.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+	<script src="/client/botcontrol.js"></script>
+</head>
+<body>
+    <a href="/client/simplecontrol.html">Simple control</a>
+    <table align=center>
+        <tr>
+            <td rowspan=2><iframe width=680 height=580 src="cam.html" frameborder="0"></iframe></td>
+            <td>Robot</td><td>
+                <table align=center>
+                    <tr><td align=center>&nbsp;</td>
+                        <td align=center><button id="fwd" value="u">Forward</button></td>
+                        <td align=center>&nbsp;</td>
+                    </tr>
+                    <tr><td align=center><button id="left" value="l">Left</button></td>
+                        <td align=center><button id="stop" value="s">Stop</button></td>
+                        <td align=center><button id="right" value="r">Right</button></td>
+                    </tr>
+                    <tr><td align=center>&nbsp;</td>
+                        <td align=center><button id="back" value="d">Reverse</button></td>
+                        <td align=center>&nbsp;</td>
+                    </tr>
+                    <tr><td align=center>&nbsp;</td>
+                        <td align=center>&nbsp;</td>
+                        <td align=center>&nbsp;</td>
+                    </tr>
+                    <tr><td align=center>&nbsp;</td>
+                        <td align=center>Speed<br><div id="speedChange"><input id="slide" type="range" min="0" max="255" step="1" value=127 onchange="speedChange(this)" /></div></td>
+                        <td align=center>&nbsp;</td>
+                    </tr>
+                    <tr><td align=center>&nbsp;</td>
+                        <td align=center><div id="speedDisplay">&nbsp;</div></td>
+                        <td align=center>&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+         </tr>
+        <tr>
+            <td>Camera</td><td>
+                <table align=center>
+                    <tr><td align=center>&nbsp;</td>
+                        <td align=center><button id="tiltUp" value="u">/\  Up  /\</button></td>
+                        <td align=center>&nbsp;</td>
+                    </tr>
+                    <tr><td align=center><button id="panLeft" value="l"><--  Left</button></td>
+                        <td align=center><button id="panTiltStop" value="stop">Stop</button></td>
+                        <td align=center><button id="panRight" value="r">Right --></button></td>
+                    </tr>
+                    <tr><td align=center>&nbsp;</td>
+                        <td align=center><button id="tiltDown" value="d">\/ Down \/</button></td>
+                        <td align=center>&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr><td align=center><button onclick='centerCam(this);' id="centerCam" value="true">Center Camera</button></td>
+            <td align=center><button onclick='restartFFMEG(this);' id="restartFFMEG" value="true">Restart Video Server</button></td>
+        </tr>
+    </table>
+    <a href='javascript:void(0)' id=gps>Loading GPS data</a>
+    <div id="gamepadPrompt"></div>
+    <div id="gamepadDisplay"></div>
+ 
+</body>
+</html>
+
